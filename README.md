@@ -8,3 +8,8 @@ It is designed as a personal project that simulates enterprise-level IoT managem
 ## Brink Node
 
 The MQTT Client node responsible for maintaing a connection to the broker
+Built as python package, and should ideally be deployed as docker container
+
+## Brink Broker
+
+## Brink Cloud Platform
