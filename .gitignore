@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Distribution / packagin
+.Python
+build/
+develop-egg/
+dist/
+wheels/
+*.egg-info/
+MANIFEST
+
 # Environments
 .env
 .venv
