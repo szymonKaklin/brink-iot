@@ -9,10 +9,10 @@ import threading
 load_dotenv()
 
 # MQTT broker configuration
-BROKER = os.getenv("BRINK_MQTT_BROKER")        # Replace with your broker address
-PORT = int(os.getenv("BRINK_MQTT_PORT"))       # Replace with your broker port
-USERNAME = os.getenv("BRINK_MQTT_USERNAME")    # Replace with your broker username
-PASSWORD = os.getenv("BRINK_MQTT_PASSWORD")    # Replace with your broker password
+BROKER = os.getenv("BRINK_MQTT_BROKER")
+PORT = int(os.getenv("BRINK_MQTT_PORT"))
+USERNAME = os.getenv("BRINK_MQTT_USERNAME")
+PASSWORD = os.getenv("BRINK_MQTT_PASSWORD")
 
 TOPIC = "diagnostics/info"
 
