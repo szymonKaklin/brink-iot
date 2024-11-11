@@ -10,7 +10,7 @@ WORKDIR .
 COPY requirements.txt /
 
 # Copy python script into container
-COPY diagnostics.py /
+COPY brink_node.py /
 
 # Install build dependencies for psutil, install python libraries
 # then remove build dependencies
