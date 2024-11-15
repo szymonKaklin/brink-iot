@@ -1,7 +1,9 @@
-from dotenv import load_dotenv
 import os
+from typing import Dict, Any
 
-def load_mqtt_config():
+from dotenv import load_dotenv
+
+def load_mqtt_config() -> Dict[str, Any]:
     load_dotenv(os.path.join(os.getcwd(), '.env'))
 
     config = {

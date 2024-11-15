@@ -1,4 +1,5 @@
 import time
+
 from brink_node.mqtt_client import start_mqtt_client
 from brink_node.utils import load_mqtt_config
 from brink_node.diagnostics import get_mac_address
